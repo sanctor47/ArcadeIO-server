@@ -1,0 +1,149 @@
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 141
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-09T23:55:16.413Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-10T19:08:47.248Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-10T19:09:43.419Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-10T19:10:04.461Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-10T19:14:57.618Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee6$ (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\services\/user.service.js:41:25)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-10T19:15:26.196Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee6$ (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\services\/user.service.js:53:49)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-10T19:15:55.909Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee6$ (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\services\/user.service.js:61:11)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-10T19:16:30.407Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee6$ (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\services\/user.service.js:63:26)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-10T19:16:50.603Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-10T19:17:56.638Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-10T19:50:18.344Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-16T05:37:35.672Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-16T05:37:54.309Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-16T05:44:02.156Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-16T05:46:00.770Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-16T05:46:15.352Z"}

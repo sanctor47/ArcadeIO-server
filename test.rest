@@ -1,0 +1,39 @@
+### Register a new user
+POST http://127.0.0.1:5000/api/v1/users/register
+Content-Type: application/json
+
+{
+    "firstName": "Tamer",
+    "lastName": "Nabil",
+    "email": "test@test.com",
+    "phone": "0000",
+    "password": "1234"
+}
+### Login a user
+POST http://127.0.0.1:5000/api/v1/users/login
+Content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "password": "1234"
+}
+
+### Get all Users
+GET http://127.0.0.1:5000/api/v1/users
+Content-Type: application/json
+
+### Get User by Id
+GET http://127.0.0.1:5000/api/v1/users/id/63446ff17a3a8921b0a14ac5
+
+### Delete User by id
+DELETE http://127.0.0.1:5000/api/v1/users/id/63446ff17a3a8921b0a14ac5
+
+### Get User Score Card
+
+### Get User Prizez
+
+### Start a New Game
+
+### Add new Game
+
+### Add New prize
