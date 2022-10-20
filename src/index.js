@@ -5,6 +5,8 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 
+import { StartMQTT } from './MQTT/gameServices';
+
 import routes from './routes';
 import database from './config/database';
 import {
@@ -34,8 +36,10 @@ app.use(appErrorHandler);
 app.use(genericErrorHandler);
 app.use(notFound);
 
+
 app.listen(port, () => {
   logger.info(`Server started at ${host}:${port}/api/${api_version}/`);
+  StartMQTT()
 });
 
 export default app;

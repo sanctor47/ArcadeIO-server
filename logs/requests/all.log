@@ -92,3 +92,461 @@ info: ::ffff:127.0.0.1 - - [16/Oct/2022:06:05:37 +0000] "POST /api/v1/users/logi
 
 info: ::ffff:127.0.0.1 - - [16/Oct/2022:06:06:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 557 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
 
+error: uncaughtException: The "url" argument must be of type string. Received an instance of Array
+TypeError: The "url" argument must be of type string. Received an instance of Array
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at Url.parse (node:url:169:3)
+    at Object.urlParse [as parse] (node:url:156:13)
+    at Object.connect (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\connect\index.js:64:24)
+    at StartMQTT (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:44:23)
+    at Server.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:90:3)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at Server.emit (node:domain:475:12)
+    at emitListeningNT (node:net:1368:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Mon Oct 17 2022 17:44:57 GMT+0200 (Eastern European Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":164536},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19474106,"external":22213813,"heapTotal":89600000,"heapUsed":57517720,"rss":120528896},"pid":21908,"uid":null,"version":"v16.13.2"},"stack":"TypeError: The \"url\" argument must be of type string. Received an instance of Array\n    at new NodeError (node:internal/errors:371:5)\n    at validateString (node:internal/validators:119:11)\n    at Url.parse (node:url:169:3)\n    at Object.urlParse [as parse] (node:url:156:13)\n    at Object.connect (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\connect\\index.js:64:24)\n    at StartMQTT (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:44:23)\n    at Server.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:90:3)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at Server.emit (node:domain:475:12)\n    at emitListeningNT (node:net:1368:10)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:internal/validators","function":"validateString","line":119,"method":null,"native":false},{"column":3,"file":"node:url","function":"Url.parse","line":169,"method":"parse","native":false},{"column":13,"file":"node:url","function":"Object.urlParse [as parse]","line":156,"method":"urlParse [as parse]","native":false},{"column":24,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\connect\\index.js","function":"Object.connect","line":64,"method":"connect","native":false},{"column":23,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":"StartMQTT","line":44,"method":null,"native":false},{"column":3,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":null,"line":90,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":475,"method":"emit","native":false},{"column":10,"file":"node:net","function":"emitListeningNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: The "url" argument must be of type string. Received an instance of Array
+TypeError: The "url" argument must be of type string. Received an instance of Array
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at Url.parse (node:url:169:3)
+    at Object.urlParse [as parse] (node:url:156:13)
+    at Object.connect (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\connect\index.js:64:24)
+    at StartMQTT (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:44:23)
+    at Server.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:90:3)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at Server.emit (node:domain:475:12)
+    at emitListeningNT (node:net:1368:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Mon Oct 17 2022 17:45:02 GMT+0200 (Eastern European Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":164541},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19383213,"external":31186129,"heapTotal":89337856,"heapUsed":66417896,"rss":122646528},"pid":15936,"uid":null,"version":"v16.13.2"},"stack":"TypeError: The \"url\" argument must be of type string. Received an instance of Array\n    at new NodeError (node:internal/errors:371:5)\n    at validateString (node:internal/validators:119:11)\n    at Url.parse (node:url:169:3)\n    at Object.urlParse [as parse] (node:url:156:13)\n    at Object.connect (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\connect\\index.js:64:24)\n    at StartMQTT (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:44:23)\n    at Server.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:90:3)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at Server.emit (node:domain:475:12)\n    at emitListeningNT (node:net:1368:10)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:internal/validators","function":"validateString","line":119,"method":null,"native":false},{"column":3,"file":"node:url","function":"Url.parse","line":169,"method":"parse","native":false},{"column":13,"file":"node:url","function":"Object.urlParse [as parse]","line":156,"method":"urlParse [as parse]","native":false},{"column":24,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\connect\\index.js","function":"Object.connect","line":64,"method":"connect","native":false},{"column":23,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":"StartMQTT","line":44,"method":null,"native":false},{"column":3,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":null,"line":90,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":475,"method":"emit","native":false},{"column":10,"file":"node:net","function":"emitListeningNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Unexpected token H in JSON at position 0
+SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at MqttClient.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:64:45)
+    at MqttClient.emit (node:events:390:28)
+    at MqttClient.emit (node:domain:475:12)
+    at MqttClient._handlePublish (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:1547:12)
+    at MqttClient._handlePacket (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:535:12)
+    at work (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:438:12)
+    at Writable.writable._write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:452:5)
+    at doWrite (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Writable.write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23) {"date":"Mon Oct 17 2022 17:51:25 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":164923},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18920208,"external":20469461,"heapTotal":54845440,"heapUsed":51455816,"rss":88006656},"pid":23708,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: Unexpected token H in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at MqttClient.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:64:45)\n    at MqttClient.emit (node:events:390:28)\n    at MqttClient.emit (node:domain:475:12)\n    at MqttClient._handlePublish (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:1547:12)\n    at MqttClient._handlePacket (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:535:12)\n    at work (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:438:12)\n    at Writable.writable._write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:452:5)\n    at doWrite (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Writable.write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:390:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":45,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":null,"line":64,"method":null,"native":false},{"column":28,"file":"node:events","function":"MqttClient.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MqttClient.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePublish","line":1547,"method":"_handlePublish","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePacket","line":535,"method":"_handlePacket","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"work","line":438,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"Writable.writable._write","line":452,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Writable.write","line":307,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":199,"method":"onStreamRead","native":false}]}
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:01:03:13 +0000] "GET /api/v1/games HTTP/1.1" 200 65 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:01:04:52 +0000] "POST /api/v1/games HTTP/1.1" 201 253 "-" "vscode-restclient"
+
+error: uncaughtException: (0 , _gameServices.default) is not a function
+TypeError: (0 , _gameServices.default) is not a function
+    at Server.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:42:3)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at Server.emit (node:domain:475:12)
+    at emitListeningNT (node:net:1368:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Oct 19 2022 03:20:12 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":52424},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19991936,"external":23305326,"heapTotal":92987392,"heapUsed":62571512,"rss":127590400},"pid":10024,"uid":null,"version":"v16.13.2"},"stack":"TypeError: (0 , _gameServices.default) is not a function\n    at Server.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:42:3)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at Server.emit (node:domain:475:12)\n    at emitListeningNT (node:net:1368:10)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":3,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":null,"line":42,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":475,"method":"emit","native":false},{"column":10,"file":"node:net","function":"emitListeningNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: topicName is not defined
+ReferenceError: topicName is not defined
+    at MqttClient.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\MQTT\/gameServices.js:29:24)
+    at MqttClient.emit (node:events:402:35)
+    at MqttClient.emit (node:domain:475:12)
+    at Readable.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:1863:14)
+    at Readable.emit (node:events:390:28)
+    at Readable.emit (node:domain:475:12)
+    at endReadableNT (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_readable.js:1094:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Wed Oct 19 2022 03:20:35 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":52447},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18934479,"external":22924855,"heapTotal":96002048,"heapUsed":54507992,"rss":127479808},"pid":18132,"uid":null,"version":"v16.13.2"},"stack":"ReferenceError: topicName is not defined\n    at MqttClient.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js:29:24)\n    at MqttClient.emit (node:events:402:35)\n    at MqttClient.emit (node:domain:475:12)\n    at Readable.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:1863:14)\n    at Readable.emit (node:events:390:28)\n    at Readable.emit (node:domain:475:12)\n    at endReadableNT (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_readable.js:1094:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","trace":[{"column":24,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js","function":null,"line":29,"method":null,"native":false},{"column":35,"file":"node:events","function":"MqttClient.emit","line":402,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MqttClient.emit","line":475,"method":"emit","native":false},{"column":14,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":null,"line":1863,"method":null,"native":false},{"column":28,"file":"node:events","function":"Readable.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Readable.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"endReadableNT","line":1094,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+error: uncaughtException: topicName is not defined
+ReferenceError: topicName is not defined
+    at MqttClient.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\MQTT\/gameServices.js:29:24)
+    at MqttClient.emit (node:events:402:35)
+    at MqttClient.emit (node:domain:475:12)
+    at Readable.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:1863:14)
+    at Readable.emit (node:events:390:28)
+    at Readable.emit (node:domain:475:12)
+    at endReadableNT (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_readable.js:1094:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Wed Oct 19 2022 03:20:40 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":52451},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18934479,"external":22924861,"heapTotal":96002048,"heapUsed":54610744,"rss":127496192},"pid":17684,"uid":null,"version":"v16.13.2"},"stack":"ReferenceError: topicName is not defined\n    at MqttClient.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js:29:24)\n    at MqttClient.emit (node:events:402:35)\n    at MqttClient.emit (node:domain:475:12)\n    at Readable.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:1863:14)\n    at Readable.emit (node:events:390:28)\n    at Readable.emit (node:domain:475:12)\n    at endReadableNT (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_readable.js:1094:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","trace":[{"column":24,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js","function":null,"line":29,"method":null,"native":false},{"column":35,"file":"node:events","function":"MqttClient.emit","line":402,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MqttClient.emit","line":475,"method":"emit","native":false},{"column":14,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":null,"line":1863,"method":null,"native":false},{"column":28,"file":"node:events","function":"Readable.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Readable.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"endReadableNT","line":1094,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:01:28:34 +0000] "GET /api/v1/users HTTP/1.1" 200 2039 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:01:29:51 +0000] "GET /api/v1/games HTTP/1.1" 200 260 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:01:30:18 +0000] "POST /api/v1/games/startGame HTTP/1.1" 500 54 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:01:30:36 +0000] "POST /api/v1/games/startGame HTTP/1.1" 200 50 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:01:31:18 +0000] "POST /api/v1/games/startGame HTTP/1.1" 200 62 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:01:32:17 +0000] "POST /api/v1/games/startGame HTTP/1.1" 200 62 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:01:44:01 +0000] "GET /api/v1/games HTTP/1.1" 200 260 "-" "vscode-restclient"
+
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Wed Oct 19 2022 03:46:29 GMT+0200 (Eastern European Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54000},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18853089,"external":20402342,"heapTotal":57991168,"heapUsed":53205624,"rss":92393472},"pid":19168,"uid":null,"version":"v16.13.2"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","trace":[]}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Wed Oct 19 2022 03:47:10 GMT+0200 (Eastern European Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54041},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20148156,"external":22056495,"heapTotal":91168768,"heapUsed":65976480,"rss":126210048},"pid":5520,"uid":null,"version":"v16.13.2"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","trace":[]}
+error: uncaughtException: Unexpected token p in JSON at position 1
+SyntaxError: Unexpected token p in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at MqttClient.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\MQTT\/gameServices.js:26:36)
+    at MqttClient.emit (node:events:390:28)
+    at MqttClient.emit (node:domain:475:12)
+    at MqttClient._handlePublish (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:1547:12)
+    at MqttClient._handlePacket (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:535:12)
+    at work (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:438:12)
+    at Writable.writable._write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:452:5)
+    at doWrite (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Writable.write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23) {"date":"Wed Oct 19 2022 03:48:42 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54134},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18925413,"external":20474666,"heapTotal":57466880,"heapUsed":52905976,"rss":92065792},"pid":20872,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: Unexpected token p in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at MqttClient.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js:26:36)\n    at MqttClient.emit (node:events:390:28)\n    at MqttClient.emit (node:domain:475:12)\n    at MqttClient._handlePublish (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:1547:12)\n    at MqttClient._handlePacket (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:535:12)\n    at work (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:438:12)\n    at Writable.writable._write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:452:5)\n    at doWrite (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Writable.write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:390:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":36,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js","function":null,"line":26,"method":null,"native":false},{"column":28,"file":"node:events","function":"MqttClient.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MqttClient.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePublish","line":1547,"method":"_handlePublish","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePacket","line":535,"method":"_handlePacket","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"work","line":438,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"Writable.writable._write","line":452,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Writable.write","line":307,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":199,"method":"onStreamRead","native":false}]}
+error: uncaughtException: Unexpected token p in JSON at position 1
+SyntaxError: Unexpected token p in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at MqttClient.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\MQTT\/gameServices.js:26:36)
+    at MqttClient.emit (node:events:390:28)
+    at MqttClient.emit (node:domain:475:12)
+    at MqttClient._handlePublish (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:1547:12)
+    at MqttClient._handlePacket (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:535:12)
+    at work (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:438:12)
+    at Writable.writable._write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:452:5)
+    at doWrite (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Writable.write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23) {"date":"Wed Oct 19 2022 03:50:11 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54223},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18927257,"external":20476510,"heapTotal":57466880,"heapUsed":52966928,"rss":91463680},"pid":12932,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: Unexpected token p in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at MqttClient.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js:26:36)\n    at MqttClient.emit (node:events:390:28)\n    at MqttClient.emit (node:domain:475:12)\n    at MqttClient._handlePublish (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:1547:12)\n    at MqttClient._handlePacket (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:535:12)\n    at work (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:438:12)\n    at Writable.writable._write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:452:5)\n    at doWrite (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Writable.write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:390:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":36,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js","function":null,"line":26,"method":null,"native":false},{"column":28,"file":"node:events","function":"MqttClient.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MqttClient.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePublish","line":1547,"method":"_handlePublish","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePacket","line":535,"method":"_handlePacket","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"work","line":438,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"Writable.writable._write","line":452,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Writable.write","line":307,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":199,"method":"onStreamRead","native":false}]}
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:02:01:00 +0000] "GET /api/v1/games HTTP/1.1" 200 260 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:02:01:07 +0000] "POST /api/v1/games/startGame HTTP/1.1" 200 62 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:02:01:10 +0000] "GET /api/v1/games HTTP/1.1" 200 276 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:02:01:34 +0000] "GET /api/v1/games HTTP/1.1" 200 277 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:02:01:48 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:16:14:13 +0000] "POST /api/v1/games/startGame HTTP/1.1" 200 62 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:16:15:12 +0000] "POST /api/v1/games/startGame HTTP/1.1" 200 50 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [19/Oct/2022:16:15:25 +0000] "POST /api/v1/games/startGame HTTP/1.1" 200 50 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:10:15 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:12:07 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:13:11 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:13:23 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:13:43 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:13:49 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:13:52 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:14:00 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:14:11 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:14:15 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:14:20 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:14:29 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:14:41 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:14:46 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:14:59 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:15:07 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:15:09 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:15:15 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:15:22 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:15:36 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:15:52 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:16:06 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:16:13 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:16:20 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:16:25 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:16:45 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:17:03 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:17:11 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:18:28 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:18:41 +0000] "GET /api/v1/scores HTTP/1.1" 200 269 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:20:35 +0000] "GET /api/v1/scores HTTP/1.1" 200 700 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:20:35 +0000] "GET /api/v1/scores HTTP/1.1" 200 700 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:23:51 +0000] "GET /api/v1/scores HTTP/1.1" 200 700 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:23:51 +0000] "GET /api/v1/scores HTTP/1.1" 200 700 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:49:20 +0000] "GET /api/v1/users HTTP/1.1" 200 2158 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:50:04 +0000] "DELETE /api/v1/users/id/634b9eca34764716c0fc36b3 HTTP/1.1" 200 60 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:50:22 +0000] "DELETE /api/v1/users/id/634b9ad6dbd87b3ea05b3d97 HTTP/1.1" 200 60 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:50:28 +0000] "DELETE /api/v1/users/id/634b9a44dbd87b3ea05b3d8f HTTP/1.1" 200 60 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:50:36 +0000] "DELETE /api/v1/users/id/634b9a2cdbd87b3ea05b3d8b HTTP/1.1" 200 60 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:50:43 +0000] "DELETE /api/v1/users/id/634b99c4dbd87b3ea05b3d86 HTTP/1.1" 200 60 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:50:52 +0000] "DELETE /api/v1/users/id/63446ff17a3a8921b0a14ac5 HTTP/1.1" 200 60 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:50:54 +0000] "GET /api/v1/users HTTP/1.1" 200 360 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:51:02 +0000] "DELETE /api/v1/users/id/634b98b8dbd87b3ea05b3d82 HTTP/1.1" 200 60 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:01:52:04 +0000] "POST /api/v1/users/register HTTP/1.1" 201 615 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:00:49 +0000] "GET /api/v1/users HTTP/1.1" 200 379 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:01:07 +0000] "POST /api/v1/games/startGame HTTP/1.1" 200 50 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:01:30 +0000] "GET /api/v1/users HTTP/1.1" 200 379 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:03:04 +0000] "PUT /api/v1/games/id/634f4d34e6fbd449e89127ae HTTP/1.1" 202 269 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:03:10 +0000] "PUT /api/v1/games/id/634f4d34e6fbd449e89127ae HTTP/1.1" 202 269 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:03:18 +0000] "GET /api/v1/games HTTP/1.1" 200 276 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:03:22 +0000] "PUT /api/v1/games/id/634f4d34e6fbd449e89127ae HTTP/1.1" 202 269 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:03:38 +0000] "PUT /api/v1/games/id/634f4d34e6fbd449e89127ae HTTP/1.1" 202 269 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:03:43 +0000] "GET /api/v1/games HTTP/1.1" 200 276 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:03:49 +0000] "PUT /api/v1/games/id/634f4d34e6fbd449e89127ae HTTP/1.1" 202 269 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:03:52 +0000] "GET /api/v1/games HTTP/1.1" 200 276 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:03:58 +0000] "PUT /api/v1/games/id/634f4d34e6fbd449e89127ae HTTP/1.1" 202 269 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:06:42 +0000] "GET /api/v1/games HTTP/1.1" 200 277 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:06:56 +0000] "GET /api/v1/users HTTP/1.1" 200 379 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:07:02 +0000] "POST /api/v1/games/startGame HTTP/1.1" 200 62 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:07:06 +0000] "GET /api/v1/users HTTP/1.1" 200 590 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:11:13 +0000] "POST /api/v1/games/startGame HTTP/1.1" 200 62 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:11:23 +0000] "GET /api/v1/users HTTP/1.1" 200 590 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:11:39 +0000] "GET /api/v1/games HTTP/1.1" 200 276 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:11:47 +0000] "GET /api/v1/games HTTP/1.1" 200 277 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:16:08 +0000] "GET /api/v1/scores HTTP/1.1" 200 2545 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:16:08 +0000] "GET /api/v1/scores HTTP/1.1" 200 2545 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:17:23 +0000] "GET /api/v1/scores HTTP/1.1" 200 2545 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:17:23 +0000] "GET /api/v1/scores HTTP/1.1" 200 2545 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:17:26 +0000] "GET /api/v1/scores HTTP/1.1" 200 2545 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:17:26 +0000] "GET /api/v1/scores HTTP/1.1" 200 2545 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:23:01 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 398 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:23:01 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 398 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:23:34 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 398 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:23:40 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 398 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:23:52 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 398 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:24:04 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 398 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:24:42 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:24:42 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:26:52 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:27:28 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:27:38 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:27:47 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:28:10 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:28:46 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:29:00 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:29:07 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:29:27 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:29:38 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:29:45 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:30:12 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:30:27 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:30:45 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:31:00 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:31:10 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:31:28 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:31:38 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:33:30 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:34:19 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:34:46 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:34:55 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:35:07 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:40:24 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:40:24 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:40:36 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:40:36 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:41:01 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:41:01 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:41:01 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:46:44 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:46:44 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:46:44 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:47:43 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:47:43 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:47:43 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:47:55 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:47:55 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:47:56 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:16 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:16 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:19 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:19 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:22 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:22 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:25 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:29 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:29 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:32 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:32 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:32 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:32 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:36 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:36 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:36 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:50:36 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:51:02 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:51:02 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:51:02 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:51:12 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:51:12 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:51:12 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:02:51:12 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:04:55 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:04:55 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:04:55 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:04:55 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:15:14 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:15:14 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:15:15 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:15:22 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:15:22 +0000] "GET /api/v1/users/id/6350a9c40c86f8141854480f HTTP/1.1" 200 584 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:15:23 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [20/Oct/2022:03:15:23 +0000] "GET /api/v1/playerHighScores/id/6350a9c40c86f8141854480f HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+

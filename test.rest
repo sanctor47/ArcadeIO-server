@@ -21,6 +21,9 @@ Content-Type: application/json
 ### Get all Users
 GET http://127.0.0.1:5000/api/v1/users
 Content-Type: application/json
+### Get all Users
+DELETE http://127.0.0.1:5000/api/v1/users/id/634b98b8dbd87b3ea05b3d82
+Content-Type: application/json
 
 ### Get User by Id
 GET http://127.0.0.1:5000/api/v1/users/id/63446ff17a3a8921b0a14ac5
@@ -37,3 +40,36 @@ DELETE http://127.0.0.1:5000/api/v1/users/id/63446ff17a3a8921b0a14ac5
 ### Add new Game
 
 ### Add New prize
+
+### GET all Games
+GET http://127.0.0.1:5000/api/v1/games
+
+###
+PUT http://127.0.0.1:5000/api/v1/games/id/634f4d34e6fbd449e89127ae
+
+{
+    "isActive": "false"
+}
+
+### Post a new game
+Post http://127.0.0.1:5000/api/v1/games
+Content-Type: application/json
+{
+    "name":"Mini Reaction Game",
+    "type": "Physical",
+    "clientId": "387032975032975"
+}
+
+### Start a game
+POST http://127.0.0.1:5000/api/v1/games/startGame
+Content-Type: application/json
+
+{
+    "playerId":"6350a9c40c86f8141854480f",
+    "gameId":"634f4d34e6fbd449e89127ae"
+}
+
+### -t game/score/387032975032975 -m {\"playerId\":\"6350a9c40c86f8141854480f\", \"gameId\":\"387032975032975\", \"score\":\"2000\"}"
+
+### GET all Games
+GET http://127.0.0.1:5000/api/v1/scores

@@ -197,3 +197,337 @@ info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-16T0
 info: Connected to the database. {"timestamp":"2022-10-16T06:05:12.340Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-16T06:05:36.262Z"}
 info: Connected to the database. {"timestamp":"2022-10-16T06:05:36.307Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:41:31.574Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:41:31.662Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:42:25.840Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:42:25.906Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:43:36.937Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:43:37.007Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:44:57.706Z"}
+error: uncaughtException: The "url" argument must be of type string. Received an instance of Array
+TypeError: The "url" argument must be of type string. Received an instance of Array
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at Url.parse (node:url:169:3)
+    at Object.urlParse [as parse] (node:url:156:13)
+    at Object.connect (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\connect\index.js:64:24)
+    at StartMQTT (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:44:23)
+    at Server.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:90:3)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at Server.emit (node:domain:475:12)
+    at emitListeningNT (node:net:1368:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Mon Oct 17 2022 17:44:57 GMT+0200 (Eastern European Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":164536},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19465890,"external":22205557,"heapTotal":89600000,"heapUsed":57398512,"rss":119734272},"pid":21908,"uid":null,"version":"v16.13.2"},"stack":"TypeError: The \"url\" argument must be of type string. Received an instance of Array\n    at new NodeError (node:internal/errors:371:5)\n    at validateString (node:internal/validators:119:11)\n    at Url.parse (node:url:169:3)\n    at Object.urlParse [as parse] (node:url:156:13)\n    at Object.connect (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\connect\\index.js:64:24)\n    at StartMQTT (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:44:23)\n    at Server.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:90:3)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at Server.emit (node:domain:475:12)\n    at emitListeningNT (node:net:1368:10)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-10-17T15:44:57.761Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:internal/validators","function":"validateString","line":119,"method":null,"native":false},{"column":3,"file":"node:url","function":"Url.parse","line":169,"method":"parse","native":false},{"column":13,"file":"node:url","function":"Object.urlParse [as parse]","line":156,"method":"urlParse [as parse]","native":false},{"column":24,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\connect\\index.js","function":"Object.connect","line":64,"method":"connect","native":false},{"column":23,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":"StartMQTT","line":44,"method":null,"native":false},{"column":3,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":null,"line":90,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":475,"method":"emit","native":false},{"column":10,"file":"node:net","function":"emitListeningNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:45:02.759Z"}
+error: uncaughtException: The "url" argument must be of type string. Received an instance of Array
+TypeError: The "url" argument must be of type string. Received an instance of Array
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at Url.parse (node:url:169:3)
+    at Object.urlParse [as parse] (node:url:156:13)
+    at Object.connect (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\connect\index.js:64:24)
+    at StartMQTT (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:44:23)
+    at Server.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:90:3)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at Server.emit (node:domain:475:12)
+    at emitListeningNT (node:net:1368:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Mon Oct 17 2022 17:45:02 GMT+0200 (Eastern European Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":164541},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19374997,"external":31177873,"heapTotal":89075712,"heapUsed":66106648,"rss":121794560},"pid":15936,"uid":null,"version":"v16.13.2"},"stack":"TypeError: The \"url\" argument must be of type string. Received an instance of Array\n    at new NodeError (node:internal/errors:371:5)\n    at validateString (node:internal/validators:119:11)\n    at Url.parse (node:url:169:3)\n    at Object.urlParse [as parse] (node:url:156:13)\n    at Object.connect (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\connect\\index.js:64:24)\n    at StartMQTT (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:44:23)\n    at Server.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:90:3)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at Server.emit (node:domain:475:12)\n    at emitListeningNT (node:net:1368:10)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-10-17T15:45:02.798Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:internal/validators","function":"validateString","line":119,"method":null,"native":false},{"column":3,"file":"node:url","function":"Url.parse","line":169,"method":"parse","native":false},{"column":13,"file":"node:url","function":"Object.urlParse [as parse]","line":156,"method":"urlParse [as parse]","native":false},{"column":24,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\connect\\index.js","function":"Object.connect","line":64,"method":"connect","native":false},{"column":23,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":"StartMQTT","line":44,"method":null,"native":false},{"column":3,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":null,"line":90,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":475,"method":"emit","native":false},{"column":10,"file":"node:net","function":"emitListeningNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:45:31.998Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:45:32.082Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:46:20.464Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:46:20.527Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:46:40.568Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:46:40.655Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:46:55.624Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:46:55.693Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:48:34.966Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:48:35.033Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:49:28.181Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:49:28.270Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:50:12.233Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:50:12.297Z"}
+error: uncaughtException: Unexpected token H in JSON at position 0
+SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at MqttClient.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:64:45)
+    at MqttClient.emit (node:events:390:28)
+    at MqttClient.emit (node:domain:475:12)
+    at MqttClient._handlePublish (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:1547:12)
+    at MqttClient._handlePacket (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:535:12)
+    at work (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:438:12)
+    at Writable.writable._write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:452:5)
+    at doWrite (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Writable.write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23) {"date":"Mon Oct 17 2022 17:51:25 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":164923},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18907074,"external":20456287,"heapTotal":54845440,"heapUsed":51327584,"rss":87138304},"pid":23708,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: Unexpected token H in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at MqttClient.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:64:45)\n    at MqttClient.emit (node:events:390:28)\n    at MqttClient.emit (node:domain:475:12)\n    at MqttClient._handlePublish (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:1547:12)\n    at MqttClient._handlePacket (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:535:12)\n    at work (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:438:12)\n    at Writable.writable._write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:452:5)\n    at doWrite (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Writable.write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:390:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)","timestamp":"2022-10-17T15:51:25.194Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":45,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":null,"line":64,"method":null,"native":false},{"column":28,"file":"node:events","function":"MqttClient.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MqttClient.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePublish","line":1547,"method":"_handlePublish","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePacket","line":535,"method":"_handlePacket","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"work","line":438,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"Writable.writable._write","line":452,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Writable.write","line":307,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":199,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:52:39.669Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:52:39.731Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:53:43.584Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:53:43.663Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-17T15:54:51.212Z"}
+info: Connected to the database. {"timestamp":"2022-10-17T15:54:51.276Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-18T13:57:39.634Z"}
+info: Connected to the database. {"timestamp":"2022-10-18T13:57:39.755Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-18T13:58:01.366Z"}
+info: Connected to the database. {"timestamp":"2022-10-18T13:58:01.432Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-18T13:58:52.570Z"}
+info: Connected to the database. {"timestamp":"2022-10-18T13:58:52.682Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-18T13:59:07.346Z"}
+info: Connected to the database. {"timestamp":"2022-10-18T13:59:07.413Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-18T13:59:21.582Z"}
+info: Connected to the database. {"timestamp":"2022-10-18T13:59:21.662Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:03:11.994Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:03:12.205Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 98
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/games 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-19T01:04:46.986Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:06:06.333Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:06:06.392Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:06:25.743Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:06:25.805Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:08:42.214Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:08:42.277Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:10:19.717Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:10:19.818Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:11:35.818Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:11:35.890Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:12:23.556Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:12:23.626Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:14:22.515Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:14:22.600Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:14:42.481Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:14:42.553Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:14:54.939Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:14:55.013Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:15:06.156Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:15:06.222Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:20:12.936Z"}
+error: uncaughtException: (0 , _gameServices.default) is not a function
+TypeError: (0 , _gameServices.default) is not a function
+    at Server.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\/index.js:42:3)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at Server.emit (node:domain:475:12)
+    at emitListeningNT (node:net:1368:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Oct 19 2022 03:20:12 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":52424},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19991912,"external":23305262,"heapTotal":92987392,"heapUsed":62513888,"rss":126820352},"pid":10024,"uid":null,"version":"v16.13.2"},"stack":"TypeError: (0 , _gameServices.default) is not a function\n    at Server.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js:42:3)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at Server.emit (node:domain:475:12)\n    at emitListeningNT (node:net:1368:10)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-10-19T01:20:12.967Z","trace":[{"column":3,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\/index.js","function":null,"line":42,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":475,"method":"emit","native":false},{"column":10,"file":"node:net","function":"emitListeningNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:20:35.577Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:20:35.609Z"}
+error: uncaughtException: topicName is not defined
+ReferenceError: topicName is not defined
+    at MqttClient.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\MQTT\/gameServices.js:29:24)
+    at MqttClient.emit (node:events:402:35)
+    at MqttClient.emit (node:domain:475:12)
+    at Readable.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:1863:14)
+    at Readable.emit (node:events:390:28)
+    at Readable.emit (node:domain:475:12)
+    at endReadableNT (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_readable.js:1094:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Wed Oct 19 2022 03:20:35 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":52447},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18926263,"external":22916599,"heapTotal":96002048,"heapUsed":54431864,"rss":126803968},"pid":18132,"uid":null,"version":"v16.13.2"},"stack":"ReferenceError: topicName is not defined\n    at MqttClient.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js:29:24)\n    at MqttClient.emit (node:events:402:35)\n    at MqttClient.emit (node:domain:475:12)\n    at Readable.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:1863:14)\n    at Readable.emit (node:events:390:28)\n    at Readable.emit (node:domain:475:12)\n    at endReadableNT (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_readable.js:1094:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-10-19T01:20:35.653Z","trace":[{"column":24,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js","function":null,"line":29,"method":null,"native":false},{"column":35,"file":"node:events","function":"MqttClient.emit","line":402,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MqttClient.emit","line":475,"method":"emit","native":false},{"column":14,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":null,"line":1863,"method":null,"native":false},{"column":28,"file":"node:events","function":"Readable.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Readable.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"endReadableNT","line":1094,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:20:40.215Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:20:40.250Z"}
+error: uncaughtException: topicName is not defined
+ReferenceError: topicName is not defined
+    at MqttClient.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\MQTT\/gameServices.js:29:24)
+    at MqttClient.emit (node:events:402:35)
+    at MqttClient.emit (node:domain:475:12)
+    at Readable.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:1863:14)
+    at Readable.emit (node:events:390:28)
+    at Readable.emit (node:domain:475:12)
+    at endReadableNT (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_readable.js:1094:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Wed Oct 19 2022 03:20:40 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":52451},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18926263,"external":22916605,"heapTotal":96002048,"heapUsed":54487104,"rss":126763008},"pid":17684,"uid":null,"version":"v16.13.2"},"stack":"ReferenceError: topicName is not defined\n    at MqttClient.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js:29:24)\n    at MqttClient.emit (node:events:402:35)\n    at MqttClient.emit (node:domain:475:12)\n    at Readable.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:1863:14)\n    at Readable.emit (node:events:390:28)\n    at Readable.emit (node:domain:475:12)\n    at endReadableNT (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_readable.js:1094:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-10-19T01:20:40.286Z","trace":[{"column":24,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js","function":null,"line":29,"method":null,"native":false},{"column":35,"file":"node:events","function":"MqttClient.emit","line":402,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MqttClient.emit","line":475,"method":"emit","native":false},{"column":14,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":null,"line":1863,"method":null,"native":false},{"column":28,"file":"node:events","function":"Readable.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Readable.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"endReadableNT","line":1094,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:21:24.161Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:21:24.198Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:25:41.563Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:25:41.591Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:25:58.352Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:25:58.383Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:26:58.248Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:26:58.281Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:27:11.805Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:27:11.840Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:27:35.657Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:27:35.688Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:28:20.909Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:28:20.942Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:28:28.705Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:28:28.741Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\controllers\/game.controller.js:108:46)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at startGame (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\controllers\/game.controller.js:106:24)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/games/startGame 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-10-19T01:30:18.972Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:30:34.361Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:30:34.398Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:31:08.226Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:31:08.260Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:32:14.286Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:32:14.320Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:33:46.440Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:33:46.469Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:35:28.294Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:35:28.323Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:41:43.937Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:41:43.969Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:43:13.393Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:43:13.420Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:43:39.708Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:43:39.770Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:43:49.862Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:43:49.888Z"}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Wed Oct 19 2022 03:46:29 GMT+0200 (Eastern European Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54000},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18844873,"external":20394086,"heapTotal":57991168,"heapUsed":53169608,"rss":91770880},"pid":19168,"uid":null,"version":"v16.13.2"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","timestamp":"2022-10-19T01:46:29.047Z","trace":[]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:47:07.583Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:47:07.615Z"}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Wed Oct 19 2022 03:47:10 GMT+0200 (Eastern European Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54041},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20148132,"external":22056431,"heapTotal":91168768,"heapUsed":65939920,"rss":125558784},"pid":5520,"uid":null,"version":"v16.13.2"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","timestamp":"2022-10-19T01:47:10.336Z","trace":[]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:48:15.274Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:48:15.344Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:48:21.962Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:48:22.007Z"}
+error: uncaughtException: Unexpected token p in JSON at position 1
+SyntaxError: Unexpected token p in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at MqttClient.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\MQTT\/gameServices.js:26:36)
+    at MqttClient.emit (node:events:390:28)
+    at MqttClient.emit (node:domain:475:12)
+    at MqttClient._handlePublish (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:1547:12)
+    at MqttClient._handlePacket (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:535:12)
+    at work (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:438:12)
+    at Writable.writable._write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:452:5)
+    at doWrite (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Writable.write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23) {"date":"Wed Oct 19 2022 03:48:42 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54134},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18912205,"external":20461418,"heapTotal":57466880,"heapUsed":52754496,"rss":91336704},"pid":20872,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: Unexpected token p in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at MqttClient.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js:26:36)\n    at MqttClient.emit (node:events:390:28)\n    at MqttClient.emit (node:domain:475:12)\n    at MqttClient._handlePublish (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:1547:12)\n    at MqttClient._handlePacket (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:535:12)\n    at work (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:438:12)\n    at Writable.writable._write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:452:5)\n    at doWrite (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Writable.write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:390:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)","timestamp":"2022-10-19T01:48:42.850Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":36,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js","function":null,"line":26,"method":null,"native":false},{"column":28,"file":"node:events","function":"MqttClient.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MqttClient.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePublish","line":1547,"method":"_handlePublish","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePacket","line":535,"method":"_handlePacket","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"work","line":438,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"Writable.writable._write","line":452,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Writable.write","line":307,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":199,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:49:11.653Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:49:11.684Z"}
+error: uncaughtException: Unexpected token p in JSON at position 1
+SyntaxError: Unexpected token p in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at MqttClient.<anonymous> (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\src\MQTT\/gameServices.js:26:36)
+    at MqttClient.emit (node:events:390:28)
+    at MqttClient.emit (node:domain:475:12)
+    at MqttClient._handlePublish (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:1547:12)
+    at MqttClient._handlePacket (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:535:12)
+    at work (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:438:12)
+    at Writable.writable._write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\mqtt\lib\client.js:452:5)
+    at doWrite (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Writable.write (C:\Users\asere\Desktop\Saturn\ArcadeIo\mk01\server\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23) {"date":"Wed Oct 19 2022 03:50:11 GMT+0200 (Eastern European Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54223},"process":{"argv":["node","C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\index.js"],"cwd":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18914049,"external":20463262,"heapTotal":57466880,"heapUsed":52841664,"rss":90624000},"pid":12932,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: Unexpected token p in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at MqttClient.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js:26:36)\n    at MqttClient.emit (node:events:390:28)\n    at MqttClient.emit (node:domain:475:12)\n    at MqttClient._handlePublish (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:1547:12)\n    at MqttClient._handlePacket (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:535:12)\n    at work (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:438:12)\n    at Writable.writable._write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js:452:5)\n    at doWrite (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Writable.write (C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:390:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)","timestamp":"2022-10-19T01:50:11.541Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":36,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\src\\MQTT\\/gameServices.js","function":null,"line":26,"method":null,"native":false},{"column":28,"file":"node:events","function":"MqttClient.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MqttClient.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePublish","line":1547,"method":"_handlePublish","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"MqttClient._handlePacket","line":535,"method":"_handlePacket","native":false},{"column":12,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"work","line":438,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\mqtt\\lib\\client.js","function":"Writable.writable._write","line":452,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\asere\\Desktop\\Saturn\\ArcadeIo\\mk01\\server\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Writable.write","line":307,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":390,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":199,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:53:09.814Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:53:09.842Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:54:55.804Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:54:55.829Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:56:08.254Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:56:08.283Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:59:20.086Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:59:20.115Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T01:59:38.425Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T01:59:38.459Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T02:00:15.113Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T02:00:15.232Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T02:00:20.162Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T02:00:20.196Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T02:00:29.363Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T02:00:29.399Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T16:13:40.084Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T16:13:40.137Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-19T16:15:09.819Z"}
+info: Connected to the database. {"timestamp":"2022-10-19T16:15:09.845Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-20T01:07:59.015Z"}
+info: Connected to the database. {"timestamp":"2022-10-20T01:07:59.055Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-20T01:20:28.366Z"}
+info: Connected to the database. {"timestamp":"2022-10-20T01:20:28.395Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-20T01:25:36.702Z"}
+info: Connected to the database. {"timestamp":"2022-10-20T01:25:36.730Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-20T01:51:31.520Z"}
+info: Connected to the database. {"timestamp":"2022-10-20T01:51:31.543Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-20T01:53:08.400Z"}
+info: Connected to the database. {"timestamp":"2022-10-20T01:53:08.431Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-20T02:00:32.090Z"}
+info: Connected to the database. {"timestamp":"2022-10-20T02:00:32.117Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-20T02:11:03.986Z"}
+info: Connected to the database. {"timestamp":"2022-10-20T02:11:04.064Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-10-20T02:24:37.573Z"}
+info: Connected to the database. {"timestamp":"2022-10-20T02:24:37.603Z"}

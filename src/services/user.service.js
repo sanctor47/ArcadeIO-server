@@ -4,7 +4,7 @@ import jwt from 'jsonwebtoken'
 
 //get all users
 export const getAllUsers = async () => {
-  const data = await User.find();
+  const data = await User.find().populate('gamesPlayed');
   return data;
 };
 
@@ -36,7 +36,7 @@ export const deleteUser = async (id) => {
 
 //get single user
 export const getUser = async (id) => {
-  const data = await User.findById(id);
+  const data = await User.findById(id).populate("gamesPlayed");
   return data;
 };
 
